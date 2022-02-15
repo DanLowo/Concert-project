@@ -62,7 +62,7 @@ function App() {
   };
 
   const config = {
-    public_key: process.env.P_KEY,
+    public_key: "FLWPUBK-6c22bb36e48a919db211777df257a762-X", //process.env.P_KEY,
     amount: price,
     currency: "NGN",
     customer: {
